@@ -1,0 +1,10 @@
+{
+  "block.aquaticdepths.depth_sand": "Depth Sand",
+
+  "item.aquaticdepths.diving_helmet": "Diving Helmet",
+  "item.aquaticdepths.diving_chestplate": "Diving Chestplate",
+  "item.aquaticdepths.diving_leggings": "Diving Leggings",
+  "item.aquaticdepths.diving_boots": "Diving Boots",
+
+  "itemGroup.aquaticDepthsTab": "Aquatic Depths"
+}
