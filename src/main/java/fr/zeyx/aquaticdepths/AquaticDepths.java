@@ -37,7 +37,6 @@ public class AquaticDepths
 
         MinecraftForge.EVENT_BUS.register(this);
     }
-    Camera
 
     private void setup(final FMLCommonSetupEvent event) {
         LOGGER.info("Aquatic Depths created by ZeyX_ with <3");

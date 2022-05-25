@@ -18,6 +18,7 @@ public class ItemRegistry {
     public static final RegistryObject<Item> DIVING_LEGGINGS = ITEMS.register("diving_leggings", () -> new DivingArmorItem(ArmorMaterial.DIVING, EquipmentSlot.LEGS, new Item.Properties().tab(Reference.AQUATIC_DEPTHS_TAB)));
     public static final RegistryObject<Item> DIVING_CHESTPLATE = ITEMS.register("diving_chestplate", () -> new DivingArmorItem(ArmorMaterial.DIVING, EquipmentSlot.CHEST, new Item.Properties().tab(Reference.AQUATIC_DEPTHS_TAB)));
     public static final RegistryObject<Item> DIVING_HELMET = ITEMS.register("diving_helmet", () -> new DivingArmorItem(ArmorMaterial.DIVING, EquipmentSlot.HEAD, new Item.Properties().tab(Reference.AQUATIC_DEPTHS_TAB)));
+    public static final RegistryObject<Item> DEEP_SCRAP_METAL = ITEMS.register("deep_scrap_metal", () -> new Item(new Item.Properties().tab(Reference.AQUATIC_DEPTHS_TAB)));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
